@@ -5,6 +5,9 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+/* MONGOOSE - CONEXION A BASE DE DATOS*/
+require('./config/db');
+
 
 app.get('/', (req, res) => {
     res.send('Servidor ok');
