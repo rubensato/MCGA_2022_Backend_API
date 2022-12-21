@@ -7,7 +7,7 @@ exports.addNewSupplier = async (req, res) => {
     const supplier = new Supplier(body);
 
     if (!supplier)
-      return res.status(400).json('Error creando el registro de caldera.');
+      return res.status(400).json('Error creando el registro del proveedor.');
 
     await supplier.save();
     return res.status(200).json(supplier);

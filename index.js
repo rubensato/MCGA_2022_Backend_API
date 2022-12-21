@@ -15,6 +15,8 @@ app.use(cors());
 /* ROUTES */
 const supplierRoutes = require("./routes/supplier");
 app.use("/api/supplier", supplierRoutes());
+const userRoutes = require("./routes/user");
+app.use("/api/user", userRoutes());
 
 /* EXPRESS SERVER RUNNING OK*/
 app.get("/", (req, res) => {

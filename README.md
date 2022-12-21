@@ -1,4 +1,4 @@
-# MCGA- Proyecto backend API REST para final MCGA 2022
+# MCGA - Proyecto backend API REST para final MCGA 2022
 
 Un método GET para poder obtener datos de la base de datos.
 Un método GET para poder obtener un elemento por id de la base de datos.
@@ -37,11 +37,19 @@ en navegador, probarlo en el http://localhost:3000
 ## Vista Online del proyecto
 
 View the hosted on [Heroku] (https://   xxxx   .herokuapp.com/)
-
+=> No disponible, el servicio ya no es gratuito
 
 ---
 ## Desarrollo de APIs
 
+### Recurso: `user`
+- ruta de la api: (ruta del servidor)***/api/user***
+- Acceso a los métodos  CRUD - MongoDB:
+ 1. `addNewUser` -> _Usuarios - Agregar usuario_
+ 2. `updateUser` -> _Usuarios - Actualizar datos del usuario_
+ 3. `deleteUser` -> _Usuarios - Borrar usuario por el Id_
+ 4. `getAllUsers` -> _Usuarios - Obtener todos los usuarios_
+ 5. `getUserById` -> _Usuarios - Obtener un usuario por el Id_
 
 ### Recurso: `supplier`
 - ruta de la api: (ruta del servidor)***/api/supplier***
@@ -58,4 +66,4 @@ View the hosted on [Heroku] (https://   xxxx   .herokuapp.com/)
 
 Ruben Sato
 
-© Año 2021  
+© Año 2022  
