@@ -13,6 +13,8 @@ require('./config/db');
 app.use(cors());
 
 /* ROUTES */
+const supplierRoutes = require('./routes/supplier');
+app.use('/api/supplier', supplierRoutes());
 
 /* EXPRESS SERVER RUNNING OK*/
 app.get('/', (req, res) => {
